@@ -16,4 +16,9 @@ public class SoController
 		
 	}
 	
+	public String version()
+	{
+		return System.getProperty("os.version");
+	}
+	
 }
